@@ -10,7 +10,6 @@ Pod::Spec.new do |s|
   s.author             = { "Patryk Mikolajczyk" => "mikpat92@gmail.com" }
   s.swift_version = "4.2"
   s.ios.deployment_target = "10.0"
-  s.watchos.deployment_target = "4.0"
   s.tvos.deployment_target = "10.0"
   s.source       = { :git => ".git", :tag => s.version.to_s }
   s.source_files  = "Sources/**/*"
