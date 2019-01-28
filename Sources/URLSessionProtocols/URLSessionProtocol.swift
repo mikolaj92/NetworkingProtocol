@@ -61,3 +61,5 @@ extension URLSessionProtocol where Self: URLSession {
         }
     }
 }
+
+extension URLSession: URLSessionProtocol { }

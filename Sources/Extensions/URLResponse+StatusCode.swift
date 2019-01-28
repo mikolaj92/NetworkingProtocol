@@ -8,8 +8,8 @@
 
 import Foundation
 
-extension URLResponse {
-    var httpCode: Int? {
+public extension URLResponse {
+    public var httpCode: Int? {
         return (self as? HTTPURLResponse)?.statusCode
     }
 }
