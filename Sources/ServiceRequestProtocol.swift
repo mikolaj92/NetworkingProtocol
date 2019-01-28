@@ -46,7 +46,7 @@ extension ServiceRequestProtocol {
         return nil
     }
 
-    var httpBody: Data? {
+    public var httpBody: Data? {
         guard let params = parameters else {
             return nil
         }
