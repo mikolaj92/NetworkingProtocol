@@ -10,9 +10,15 @@
 		52D6D9871BEFF229002C0205 /* NetworkingProtocol.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 52D6D97C1BEFF229002C0205 /* NetworkingProtocol.framework */; };
 		8933C7851EB5B820000D00A4 /* NetworkingProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8933C7841EB5B820000D00A4 /* NetworkingProtocol.swift */; };
 		8933C7881EB5B820000D00A4 /* NetworkingProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8933C7841EB5B820000D00A4 /* NetworkingProtocol.swift */; };
-		8933C78E1EB5B82C000D00A4 /* NetworkingProtocolTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8933C7891EB5B82A000D00A4 /* NetworkingProtocolTests.swift */; };
-		8933C7901EB5B82D000D00A4 /* NetworkingProtocolTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8933C7891EB5B82A000D00A4 /* NetworkingProtocolTests.swift */; };
 		DD7502921C690C7A006590AF /* NetworkingProtocol.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 52D6D9F01BEFFFBE002C0205 /* NetworkingProtocol.framework */; };
+		E2523B9B21FF122E00A52BED /* StatusCodeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2523B9821FF11CF00A52BED /* StatusCodeTests.swift */; };
+		E2523B9C21FF122F00A52BED /* StatusCodeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2523B9821FF11CF00A52BED /* StatusCodeTests.swift */; };
+		E2523B9E21FF13D500A52BED /* ServiceRequestProtocolTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2523B9D21FF13D500A52BED /* ServiceRequestProtocolTests.swift */; };
+		E2523B9F21FF13D500A52BED /* ServiceRequestProtocolTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2523B9D21FF13D500A52BED /* ServiceRequestProtocolTests.swift */; };
+		E2523BA121FF18CC00A52BED /* ServiceProtocolTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2523BA021FF18CC00A52BED /* ServiceProtocolTests.swift */; };
+		E2523BA221FF18CC00A52BED /* ServiceProtocolTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2523BA021FF18CC00A52BED /* ServiceProtocolTests.swift */; };
+		E2523BA421FF19B300A52BED /* RequestTestData.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2523BA321FF19B300A52BED /* RequestTestData.swift */; };
+		E2523BA521FF19B300A52BED /* RequestTestData.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2523BA321FF19B300A52BED /* RequestTestData.swift */; };
 		E2DA1CD621FB189B00E17D07 /* Result.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2DA1CD521FB189B00E17D07 /* Result.swift */; };
 		E2DA1CD821FB18E400E17D07 /* HTTPMethods.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2DA1CD721FB18E400E17D07 /* HTTPMethods.swift */; };
 		E2DA1CDA21FB18F300E17D07 /* ServiceRequestProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2DA1CD921FB18F300E17D07 /* ServiceRequestProtocol.swift */; };
@@ -63,10 +69,13 @@
 		52D6D9861BEFF229002C0205 /* NetworkingProtocol-iOS Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "NetworkingProtocol-iOS Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		52D6D9F01BEFFFBE002C0205 /* NetworkingProtocol.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = NetworkingProtocol.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		8933C7841EB5B820000D00A4 /* NetworkingProtocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetworkingProtocol.swift; sourceTree = "<group>"; };
-		8933C7891EB5B82A000D00A4 /* NetworkingProtocolTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetworkingProtocolTests.swift; sourceTree = "<group>"; };
 		AD2FAA261CD0B6D800659CF4 /* NetworkingProtocol.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = NetworkingProtocol.plist; sourceTree = "<group>"; };
 		AD2FAA281CD0B6E100659CF4 /* NetworkingProtocolTests.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = NetworkingProtocolTests.plist; sourceTree = "<group>"; };
 		DD75028D1C690C7A006590AF /* NetworkingProtocol-tvOS Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "NetworkingProtocol-tvOS Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E2523B9821FF11CF00A52BED /* StatusCodeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatusCodeTests.swift; sourceTree = "<group>"; };
+		E2523B9D21FF13D500A52BED /* ServiceRequestProtocolTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ServiceRequestProtocolTests.swift; sourceTree = "<group>"; };
+		E2523BA021FF18CC00A52BED /* ServiceProtocolTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ServiceProtocolTests.swift; sourceTree = "<group>"; };
+		E2523BA321FF19B300A52BED /* RequestTestData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RequestTestData.swift; sourceTree = "<group>"; };
 		E2DA1CD521FB189B00E17D07 /* Result.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Result.swift; sourceTree = "<group>"; };
 		E2DA1CD721FB18E400E17D07 /* HTTPMethods.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HTTPMethods.swift; sourceTree = "<group>"; };
 		E2DA1CD921FB18F300E17D07 /* ServiceRequestProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ServiceRequestProtocol.swift; sourceTree = "<group>"; };
@@ -164,8 +173,11 @@
 		8933C7831EB5B7EB000D00A4 /* Tests */ = {
 			isa = PBXGroup;
 			children = (
-				8933C7891EB5B82A000D00A4 /* NetworkingProtocolTests.swift */,
 				E2DA1D0921FB223800E17D07 /* CodableUtilitiesTests.swift */,
+				E2523B9821FF11CF00A52BED /* StatusCodeTests.swift */,
+				E2523B9D21FF13D500A52BED /* ServiceRequestProtocolTests.swift */,
+				E2523BA021FF18CC00A52BED /* ServiceProtocolTests.swift */,
+				E2523BA321FF19B300A52BED /* RequestTestData.swift */,
 			);
 			name = Tests;
 			path = Tests/NetworkingProtocolTests;
@@ -404,8 +416,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8933C7901EB5B82D000D00A4 /* NetworkingProtocolTests.swift in Sources */,
+				E2523B9B21FF122E00A52BED /* StatusCodeTests.swift in Sources */,
 				E2DA1D0E21FB224F00E17D07 /* CodableUtilitiesTests.swift in Sources */,
+				E2523B9E21FF13D500A52BED /* ServiceRequestProtocolTests.swift in Sources */,
+				E2523BA421FF19B300A52BED /* RequestTestData.swift in Sources */,
+				E2523BA121FF18CC00A52BED /* ServiceProtocolTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -433,8 +448,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8933C78E1EB5B82C000D00A4 /* NetworkingProtocolTests.swift in Sources */,
+				E2523B9C21FF122F00A52BED /* StatusCodeTests.swift in Sources */,
 				E2DA1D1021FB225000E17D07 /* CodableUtilitiesTests.swift in Sources */,
+				E2523B9F21FF13D500A52BED /* ServiceRequestProtocolTests.swift in Sources */,
+				E2523BA521FF19B300A52BED /* RequestTestData.swift in Sources */,
+				E2523BA221FF18CC00A52BED /* ServiceProtocolTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -585,6 +603,7 @@
 				SKIP_INSTALL = YES;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
 				VALID_ARCHS = "arm64 arm64e armv7 armv7s i386";
 			};
 			name = Debug;
@@ -609,6 +628,7 @@
 				SKIP_INSTALL = YES;
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
 				VALID_ARCHS = "arm64 arm64e armv7 armv7s i386";
 			};
 			name = Release;
