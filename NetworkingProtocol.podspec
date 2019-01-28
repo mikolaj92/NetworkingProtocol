@@ -8,10 +8,10 @@ Pod::Spec.new do |s|
   s.homepage     = 'https://github.com/mikolaj92/NetworkingProtocol'
   s.license      = { :type => "MIT", :file => "LICENSE" }
   s.author             = { "Patryk Mikolajczyk" => "mikpat92@gmail.com" }
-  s.swift_version = "4.2"
   s.ios.deployment_target = "10.0"
   s.tvos.deployment_target = "10.0"
-  s.source       = { :git => ".git", :tag => s.version.to_s }
-  s.source_files  = "Sources/**/*"
+  s.source       = { :git => "https://github.com/mikolaj92/NetworkingProtocol.git", :tag => s.version.to_s }
+  s.source_files  = "Sources/**/*.{swift}"
   s.frameworks  = "Foundation"
+  s.swift_version = "4.2"
 end
