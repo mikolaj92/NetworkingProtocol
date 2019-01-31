@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name         = "NetworkingProtocol"
-  s.version      = "0.2.3"
+  s.version      = "0.2.4"
   s.summary      = 'Simple protocol for URLSession.'
   s.description  = <<-DESC
     Simple wrapper for url request and url session.

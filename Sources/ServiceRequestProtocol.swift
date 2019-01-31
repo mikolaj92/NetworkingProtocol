@@ -99,19 +99,14 @@ extension ServiceRequestProtocol {
 
 extension ServiceRequestProtocol {
     public var curlString: String {
-
         var baseCommand = "curl \(url.absoluteString)"
-
-        if httpMethod.rawValue == "HEAD" {
+        if httpMethod == .head {
             baseCommand += " --head"
         }
-
+        
         var command = [baseCommand]
-
-        let method = httpMethod.rawValue
-
-        if method != "GET" && method != "HEAD" {
-            command.append("-X \(method)")
+        if httpMethod != .get && httpMethod != .head {
+            command.append("-X \(httpMethod.rawValue)")
         }
 
         if let headers = allHTTPHeaderFields {
@@ -120,7 +115,8 @@ extension ServiceRequestProtocol {
             }
         }
 
-        if let data = httpBody, let body = String(data: data, encoding: context.stringEncoding) {
+        if let data = httpBody,
+            let body = String(data: data, encoding: context.stringEncoding) {
             command.append("-d '\(body)'")
         }
 
