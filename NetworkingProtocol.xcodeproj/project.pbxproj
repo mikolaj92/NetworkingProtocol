@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		52D6D9871BEFF229002C0205 /* NetworkingProtocol.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 52D6D97C1BEFF229002C0205 /* NetworkingProtocol.framework */; };
 		8933C7851EB5B820000D00A4 /* NetworkingProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8933C7841EB5B820000D00A4 /* NetworkingProtocol.swift */; };
+		E221DE1D22044CCB00C76790 /* Headers.swift in Sources */ = {isa = PBXBuildFile; fileRef = E221DE1C22044CCB00C76790 /* Headers.swift */; };
 		E2523B9B21FF122E00A52BED /* StatusCodeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2523B9821FF11CF00A52BED /* StatusCodeTests.swift */; };
 		E2523B9E21FF13D500A52BED /* ServiceRequestProtocolTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2523B9D21FF13D500A52BED /* ServiceRequestProtocolTests.swift */; };
 		E2523BA121FF18CC00A52BED /* ServiceProtocolTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2523BA021FF18CC00A52BED /* ServiceProtocolTests.swift */; };
@@ -44,6 +45,7 @@
 		8933C7841EB5B820000D00A4 /* NetworkingProtocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetworkingProtocol.swift; sourceTree = "<group>"; };
 		AD2FAA261CD0B6D800659CF4 /* NetworkingProtocol.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = NetworkingProtocol.plist; sourceTree = "<group>"; };
 		AD2FAA281CD0B6E100659CF4 /* NetworkingProtocolTests.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = NetworkingProtocolTests.plist; sourceTree = "<group>"; };
+		E221DE1C22044CCB00C76790 /* Headers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Headers.swift; sourceTree = "<group>"; };
 		E2523B9821FF11CF00A52BED /* StatusCodeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatusCodeTests.swift; sourceTree = "<group>"; };
 		E2523B9D21FF13D500A52BED /* ServiceRequestProtocolTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ServiceRequestProtocolTests.swift; sourceTree = "<group>"; };
 		E2523BA021FF18CC00A52BED /* ServiceProtocolTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ServiceProtocolTests.swift; sourceTree = "<group>"; };
@@ -118,6 +120,7 @@
 				E2DA1CD721FB18E400E17D07 /* HTTPMethods.swift */,
 				E2DA1CD921FB18F300E17D07 /* ServiceRequestProtocol.swift */,
 				E2DA1D1121FB287900E17D07 /* RequestParameters.swift */,
+				E221DE1C22044CCB00C76790 /* Headers.swift */,
 				E2DA1D0421FB1CA300E17D07 /* ServiceProtocol.swift */,
 				E2DA1D0221FB1C6400E17D07 /* Extensions */,
 				E2DA1D0321FB1C6D00E17D07 /* URLSessionProtocols */,
@@ -290,6 +293,7 @@
 				E2DA1CDC21FB199B00E17D07 /* Data+JSONDecoder.swift in Sources */,
 				E2DA1CD621FB189B00E17D07 /* Result.swift in Sources */,
 				E2DA1CE021FB19C600E17D07 /* JSONDecoder+current.swift in Sources */,
+				E221DE1D22044CCB00C76790 /* Headers.swift in Sources */,
 				E2DA1CDE21FB19B000E17D07 /* JSONEncoder+current.swift in Sources */,
 				E2DA1CDA21FB18F300E17D07 /* ServiceRequestProtocol.swift in Sources */,
 				8933C7851EB5B820000D00A4 /* NetworkingProtocol.swift in Sources */,

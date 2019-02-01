@@ -17,7 +17,7 @@ public protocol ServiceRequestProtocol {
     var timeoutInterval: TimeInterval { get }
     var allowsCellularAccess: Bool { get }
     var httpMethod: HTTPMethod { get }
-    var allHTTPHeaderFields: [String : String]? { get }
+    var headers: Headers? { get }
     var httpBody: Data? { get }
     var parameters: RequestParameters? { get }
 }
@@ -42,7 +42,7 @@ extension ServiceRequestProtocol {
         return HTTPMethod.get
     }
 
-    public var allHTTPHeaderFields: [String: String]? {
+    public var headers: Headers? {
         return nil
     }
 
@@ -90,7 +90,7 @@ extension ServiceRequestProtocol {
         req.timeoutInterval = timeoutInterval
         req.allowsCellularAccess = allowsCellularAccess
         req.httpMethod = httpMethod.rawValue
-        req.allHTTPHeaderFields = allHTTPHeaderFields
+        req.allHTTPHeaderFields = headers?.headers
         req.httpBody = httpBody
         return req
     }
@@ -109,7 +109,7 @@ extension ServiceRequestProtocol {
             command.append("-X \(httpMethod.rawValue)")
         }
 
-        if let headers = allHTTPHeaderFields {
+        if let headers = headers?.headers {
             for (key, value) in headers where key != "Cookie" {
                 command.append("-H '\(key): \(value)'")
             }
