@@ -17,7 +17,7 @@ public protocol ServiceRequestProtocol {
     var timeoutInterval: TimeInterval { get }
     var allowsCellularAccess: Bool { get }
     var httpMethod: HTTPMethod { get }
-    var headers: Headers? { get }
+    var headers: HTTPHeaders? { get }
     var httpBody: Data? { get }
     var parameters: RequestParameters? { get }
 }
@@ -42,7 +42,7 @@ extension ServiceRequestProtocol {
         return HTTPMethod.get
     }
 
-    public var headers: Headers? {
+    public var headers: HTTPHeaders? {
         return nil
     }
 

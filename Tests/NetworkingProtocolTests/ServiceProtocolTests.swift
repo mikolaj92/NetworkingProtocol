@@ -18,11 +18,11 @@ final class ServiceProtocolTests: XCTestCase {
     private let request = GetRequest(userId: 1)
     func testDataTask() {
         let expectation = XCTestExpectation(description: "get data")
-        let task = service.dataTask(withRequest: request) { (result: Result<[GetResponse]>) in
+        let task = service.dataTask(withRequest: request) { (result: Result<[GetResponse], Error>) in
             switch result {
-            case .value(let val):
+            case .success(let val):
                 XCTAssertEqual(val, GetResponse.mocks)
-            case .error(let err):
+            case .failure(let err):
                 XCTFail(err.localizedDescription)
             }
             

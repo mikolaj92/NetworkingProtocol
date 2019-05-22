@@ -9,7 +9,7 @@
 import Foundation
 
 public extension URLResponse {
-    public var httpCode: Int? {
+    var httpCode: Int? {
         return (self as? HTTPURLResponse)?.statusCode
     }
 }

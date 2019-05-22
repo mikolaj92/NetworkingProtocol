@@ -1,5 +1,5 @@
 //
-//  Headers.swift
+//  HTTPHeaders.swift
 //  NetworkingProtocol
 //
 //  Created by Patryk Mikolajczyk on 2/1/19.
@@ -8,6 +8,6 @@
 
 import Foundation
 
-public protocol Headers {
+public protocol HTTPHeaders {
     var headers: [String: String] { get }
 }

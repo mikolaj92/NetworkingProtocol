@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name         = "NetworkingProtocol"
-  s.version      = "0.2.5"
+  s.version      = "0.3.0"
   s.summary      = 'Simple protocol for URLSession.'
   s.description  = <<-DESC
     Simple wrapper for url request and url session.
@@ -13,5 +13,5 @@ Pod::Spec.new do |s|
   s.source       = { :git => "https://github.com/mikolaj92/NetworkingProtocol.git", :tag => s.version.to_s }
   s.source_files  = "Sources/**/*.{swift}"
   s.frameworks  = "Foundation"
-  s.swift_version = "4.2"
+  s.swift_version = "5.0"
 end
